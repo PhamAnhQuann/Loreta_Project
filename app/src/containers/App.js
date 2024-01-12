@@ -1,8 +1,12 @@
-import React from 'react'
-
+import React from 'react';
+import Login from './Login/index';
+import Homepage from './Menu/index';
 function App() {
     return (
-        <div>Ước mơ của tôi được bao nhiêu rồi !</div>
+        <div>
+            {/* <Login /> */}
+            <Homepage />
+        </div>
     )
 }
 

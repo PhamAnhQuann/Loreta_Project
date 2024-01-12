@@ -1,0 +1,53 @@
+.containers-login {
+    display: flex;
+    height: 100vh; /* Set chiều cao của container bằng 100% chiều cao của viewport */
+  }
+
+.form-login, .layout-pic {
+  flex: 1; /* Chia đều chiều rộng giữa các thành phần con */
+  height: 100%; /* Set chiều cao của các thành phần con bằng 100% chiều cao của container */
+  /*border: 1px solid #ccc; /* Thêm đường viền cho minh họa */
+  box-sizing: border-box; /* Đảm bảo đường viền không làm thay đổi kích thước thực sự của thành phần */
+}
+.form-login{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center; /* Căn theo chiều dọc */
+    justify-content: center; /* Căn theo chiều ngang */
+    height: 100vh;
+}
+.layout-pic{
+    background-color: rgb(114, 154, 255);
+    display: flex;
+    align-items: center; /* Căn theo chiều dọc */
+    justify-content: center; /* Căn theo chiều ngang */
+}
+.frame-form{
+    width:65%;
+    height: 70%;
+    /* background-color: skyblue; */
+    border-radius: 10px;
+    display: flex;
+    align-items: center; /* Căn theo chiều dọc */
+    justify-content: center; /* Căn theo chiều ngang */
+}
+.form{
+    width: 100%;
+    height: 90%;
+    background-color: #ffffff;
+}
+.form-submit{
+    width: 100%;
+}
+.remember-checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.remember-checkbox p {
+    margin-left: 8px; /* Để tạo khoảng cách giữa Checkbox và đoạn văn bản */
+}
+.logo{
+    color: white;
+    font-size: 50px;
+}

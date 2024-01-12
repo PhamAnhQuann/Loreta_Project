@@ -1,0 +1,12 @@
+.border-card{
+    width: 280px;
+    height: 400px;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.name-product{
+    font-size: 20px;
+}
+.price{
+    font-size: 20px;
+}
