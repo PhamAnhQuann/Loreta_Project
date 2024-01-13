@@ -1,0 +1,89 @@
+
+.content_1{
+    height: 910px;
+    width: 1910px;
+}
+.wrap-header{
+    position: relative;
+    z-index: 2;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(18,1fr);
+    height: 60px;
+}
+.content-header{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    grid-column-start: 2;
+    grid-column-end: 17;
+}
+.option-header{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: 1fr;
+    grid-area:"left center right";
+    width: 100%;
+    color: white;
+}
+.menu{
+    grid-area: 'left';
+}
+.logo-porsche{
+    grid-area: 'center';
+}
+.user{
+    grid-area: 'right';
+    justify-self: end;
+}
+.slide-product{
+    position: absolute;
+    width: 100%;
+    height: max-content;
+    z-index: 1;
+    top: 0;
+
+}
+.wrap-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #030305;
+    width: 1919px;
+    height: 910px;
+}
+.img{
+}
+.short-description{
+    position: absolute;
+    top:50%;
+    left: 20%;
+    color: white;
+    z-index: 2;
+    font-size: 60px;
+}
+.concert{
+    display: grid;
+    grid-template-columns: repeat(18,1fr);
+    height: 60px;
+    margin-top: 80px;
+}
+.my-favorite{
+    grid-column-start: 4;
+    grid-column-end: 8;
+}
+.the-new-paramera{
+    grid-column-start: 9;
+    grid-column-end: 13;
+}
+.cayenne{
+  grid-column-start: 14;
+    grid-column-end: 18;
+}
+.card{
+ 
+}
+.models{
+    margin-top: 80px;
+}

@@ -1,11 +1,12 @@
 import React from 'react';
 import Login from './Login/index';
-import Homepage from './Menu/index';
+import HomepageIntroduce from './IntroducingContainerPage/HomePageIntroduce/index'
+import './app.css'
 function App() {
     return (
-        <div>
+        <div className='content'>
             {/* <Login /> */}
-            <Homepage />
+            <HomepageIntroduce />
         </div>
     )
 }
