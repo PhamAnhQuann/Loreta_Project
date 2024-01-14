@@ -5,6 +5,8 @@ import porsche_911 from '../../../../images/ListImage/porsche_911.jpg'
 import slide1 from '../../../../images/ListImage/slide.jpg'
 import slide2 from '../../../../images/ListImage/slide_2.jpg'
 import panamera_teaser_0 from '../../../../images/ListImage/panamera_teaser_0.jpg'
+import porsche_sunrise from '../../../../images/ListImage/porsche_sunrise.jpg'
+
 
 
 function index() {
@@ -31,13 +33,70 @@ function index() {
             {/* <div className='short-description'>Porsche Paramera</div> */}
 
             <div className='concert'>
-                <div className='my-favorite'>fas</div>
-                <div className='the-new-paramera'>fasf</div>
-                <div className='cayenne'>fasf</div>
+                <div className='my-favorite'>
+                    <img className='card' src={porsche_911} />
+                </div>
+                <div className='the-new-paramera'>
+                    <img className='card' src={slide1} />
+
+                </div>
+                <div className='cayenne'>
+                    <img className='card' src={porsche_911} />
+
+                </div>
             </div>
-            <div className='models'></div>
-            <div className='social-media-stories'></div>
-            <div className='discover'></div>
+            <div className='models'>
+                <div className='card-models'>
+                    <img className='img-model' src={porsche_sunrise} />
+                </div>
+                <div className='card-models1'>
+                    <img className='img-model' src={porsche_sunrise} />
+                </div>
+                <div className='card-models'>
+                    <img className='img-model' src={porsche_sunrise} />
+                </div>
+                <div className='card-models1'>
+                    <img className='img-model' src={porsche_sunrise} />
+                </div>
+                <div className='card-models'>
+                    <img className='img-model' src={porsche_sunrise} />
+                </div>
+                <div className='card-models1'>
+                    <img className='img-model' src={porsche_sunrise} />
+                </div>
+            </div>
+            <div className='social-media-stories'>
+                <div className='item1'>
+                    <img className='card-media' src={slide2} />
+                </div>
+                <div className='item2'>
+                    <img className='card-media' src={slide2} />
+                </div>
+                <div className='item3'>
+                    <img className='card-media' src={slide2} />
+                </div>
+                <div className='item4'>
+                    <img className='card-media' src={slide2} />
+                </div>
+                <div className='item5'>
+                    <img className='card-media' src={slide2} />
+                </div>
+                <div className='item6'>
+                    <img className='card-media' src={slide2} />
+                </div>
+                <div className='item7'>
+                    <img className='card-media' src={slide2} />
+                </div>
+                <div className='item8'>
+                    <img className='card-media' src={slide2} />
+                </div>
+                <div className='item9'>
+                    <img className='card-media' src={slide2} />
+                </div>
+            </div>
+            <div className='discover'>
+
+            </div>
             <div className='footer'></div>
         </div>
     )

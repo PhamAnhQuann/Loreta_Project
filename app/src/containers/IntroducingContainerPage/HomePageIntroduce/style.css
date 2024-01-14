@@ -1,4 +1,6 @@
-
+:root{
+    --space-content:60px;
+}
 .content_1{
     height: 910px;
     width: 100%;
@@ -66,24 +68,75 @@
 .concert{
     display: grid;
     grid-template-columns: repeat(18,1fr);
-    height: 60px;
+    height: 50%;
+    width: 100%;
     margin-top: 80px;
 }
 .my-favorite{
-    grid-column-start: 4;
-    grid-column-end: 8;
+
+    grid-column-start: 3;
+    grid-column-end: 7;
 }
 .the-new-paramera{
-    grid-column-start: 9;
-    grid-column-end: 13;
+    grid-column-start: 8;
+    grid-column-end: 12;
 }
 .cayenne{
-  grid-column-start: 14;
-    grid-column-end: 18;
+  grid-column-start: 13;
+    grid-column-end: 17;
 }
 .card{
- 
+ width: 100%;
+ border-radius: 15px
 }
 .models{
+    display: grid;
+    grid-template-columns: repeat(18,1fr);
     margin-top: 80px;
+}
+.card-models{
+    
+    grid-column-start: 3;
+    grid-column-end: 9;
+}
+.card-models1{
+    
+    grid-column-start: 11;
+    grid-column-end: 17;
+}
+.img-model{
+    width: 100%;
+    border-radius: 15px;
+}
+.social-media-stories{
+    display: grid;
+    grid-template-areas:
+     'pic1 pic1 pic2 pic3 pic4 pic4'
+     'pic1 pic1 pic5 pic5 pic4 pic4'
+     'pic6 pic7 pic5 pic5 pic8 pic9'
+    ;
+    grid-gap: 20px;
+    grid-template-rows: repeat(3, 100px); /* Chiều cao của mỗi hàng là 100px */
+    width: 100%; /* Chiều rộng của .social-media-stories là 100% */
+    margin-top: var(--space-content);
+}
+.item1{grid-area: pic1;}
+.item2{grid-area: pic2;}
+.item3{grid-area: pic3;}
+.item4{grid-area: pic4;}
+.item5{grid-area: pic5;}
+.item6{grid-area: pic6;}
+.item7{grid-area: pic7;}
+.item8{grid-area: pic8;}
+.item9{grid-area: pic9;}
+.item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8 .item9 {
+    width: 100%; /* Chiều rộng của các ảnh là 100% */
+    height: 100%; /* Chiều cao của các ảnh là 100% */
+}
+.card-media{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+
 }
