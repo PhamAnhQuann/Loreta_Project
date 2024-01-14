@@ -35,15 +35,15 @@ function index() {
 
             <div className='concert'>
                 <div className='my-favorite'>
-                    <CardDesc urlImage={porsche_sunrise} width='100%' height='300px' borderRadius='15px' color='white' desc='The new Paramera' />
+                    <CardDesc urlImage={porsche_sunrise} width='100%' height='300px' borderRadius='15px' color='white' desc='The new Paramera' arrow />
                 </div>
                 <div className='the-new-paramera'>
-                    <CardDesc urlImage={slide1} width='100%' height='300px' borderRadius='15px' color='white' desc='Xe này của' />
+                    <CardDesc urlImage={slide1} width='100%' height='300px' borderRadius='15px' color='white' desc='Xe này của' arrow />
 
 
                 </div>
                 <div className='cayenne'>
-                    <CardDesc urlImage={slide1} width='100%' height='300px' borderRadius='15px' color='white' desc='Porsche chứ không phải của tôi!' />
+                    <CardDesc urlImage={slide1} width='100%' height='300px' borderRadius='15px' color='white' desc='Porsche chứ không phải của tôi!' arrow />
 
                 </div>
             </div>
@@ -74,6 +74,7 @@ function index() {
 
                 </div>
             </div>
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '50px', fontWeight: 'bold' }}>Social Media Stories</div>
             <div className='wrap-social'>
                 <div className='social-media-stories'>
                     <div className='item1'>
