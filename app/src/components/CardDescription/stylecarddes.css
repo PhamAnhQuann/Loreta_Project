@@ -17,3 +17,45 @@
 .image-container:hover .hover-image {
     transform: scale(1.1);
 }
+.grid_desc{
+    display: grid;
+    position: absolute;
+    grid-template-areas:
+    'space label label label label arrow'
+    'space btndesc1 btndesc1 btndesc2 btndesc2 arrow';
+    align-items: center;
+    width: 100%;
+    bottom: 30px;
+    font-family: "Rubik", sans-serif;
+}
+.label-desc{
+    grid-area: label;
+}
+.btndesc1{
+    grid-area: btndesc1;
+    width: 150px;
+    height: 60px;
+    background-color: #ccc;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+.btndesc2{
+    grid-area: btndesc2;
+    width: 150px;
+    height: 60px;
+    background-color: #000000;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ccc;
+    border: 2px solid #ccc;
+}
+.arrow{
+    top: 50%;
+    bottom: 50%;
+    grid-area: arrow;
+}

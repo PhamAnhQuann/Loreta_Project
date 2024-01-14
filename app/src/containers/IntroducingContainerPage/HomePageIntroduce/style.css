@@ -45,18 +45,18 @@
     height: max-content;
     z-index: 1;
     top: 0;
+    font-family: "Porsche Next","Arial Narrow",Arial,"Heiti SC",sans-serif;;
 
 }
 .wrap-img{
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     background-color: #030305;
     width: 100%;
     height: 910px;
 }
-.img{
-}
+
 .short-description{
     position: absolute;
     top:50%;
@@ -68,7 +68,7 @@
 .concert{
     display: grid;
     grid-template-columns: repeat(18,1fr);
-    height: 50%;
+    height: 500px;
     width: 100%;
     margin-top: 80px;
 }
@@ -90,32 +90,49 @@
  border-radius: 15px
 }
 .models{
+    margin-top: var(--space-content);
+    margin-bottom: var(--space-content);
     display: grid;
     grid-template-columns: repeat(18,1fr);
-    margin-top: 80px;
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 50px;
 }
 .card-models{
-    
-    grid-column-start: 3;
-    grid-column-end: 9;
+    grid-column-start: 4;
+    grid-column-end: 10;
 }
 .card-models1{
-    
-    grid-column-start: 11;
-    grid-column-end: 17;
+    grid-column-start: 10;
+    grid-column-end: 16;
 }
-.img-model{
+.model_car1{
+    grid-row-start: 1;
+    grid-row-end: 2;
     width: 100%;
-    border-radius: 15px;
+}
+.model_car2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.model_car3{
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.wrap-social{
+    display: grid;
+    grid-template-columns: repeat(18,1fr);
 }
 .social-media-stories{
+    grid-column-start: 4;
+    grid-column-end: 16;
     display: grid;
     grid-template-areas:
      'pic1 pic1 pic2 pic3 pic4 pic4'
      'pic1 pic1 pic5 pic5 pic4 pic4'
      'pic6 pic7 pic5 pic5 pic8 pic9'
     ;
-    grid-gap: 20px;
+    grid-gap: 10px;
     grid-template-rows: repeat(3, 100px); /* Chiều cao của mỗi hàng là 100px */
     width: 100%; /* Chiều rộng của .social-media-stories là 100% */
     margin-top: var(--space-content);
@@ -139,4 +156,10 @@
     object-fit: cover;
     border-radius: 15px;
 
+}
+.footer{
+    margin-top: var(--space-content);
+    width: 100%;
+    height: 500px;
+    background-color: #030305;
 }
