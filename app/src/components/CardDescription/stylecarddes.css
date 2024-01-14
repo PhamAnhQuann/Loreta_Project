@@ -1,0 +1,19 @@
+.textdesc{
+    font-family: "Rubik", sans-serif;
+    font-size: 30px;
+    display: inline-block;
+}
+.btnArr{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+.btnArr:hover{
+    background-color: #ccc;
+}
+.image-container:hover .hover-image {
+    transform: scale(1.1);
+}
