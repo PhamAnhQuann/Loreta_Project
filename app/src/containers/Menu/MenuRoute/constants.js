@@ -2,15 +2,18 @@ import React from "react";
 const MenuData = [
     {
         id: 1,
-        name: 'Được ưa chuộng'
+        name: 'Porsche Paramera',
+        path: '/'
     },
     {
         id: 2,
-        name: 'Khung cảnh tuyệt vời'
+        name: 'Porsche Cayenne',
+        path: '/porschecayenne'
     },
     {
         id: 3,
-        name: 'Thật ấn tượng'
+        name: 'Porsche 911',
+        path: '/porsche911'
     },
     {
         id: 4,

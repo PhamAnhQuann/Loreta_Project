@@ -1,3 +1,8 @@
 .content{
     font-family: "Rubik", sans-serif;
 }
+.flex{
+    flex-shrink: 100%;
+    flex-grow: 100%;
+    flex-basis: 100%;
+}
