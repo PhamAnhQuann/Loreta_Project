@@ -12,14 +12,15 @@ function index() {
                 <div className='iconMenu'><AnglesLeft /></div>
                 {MenuData.map((item) => (
                     <div>
-                        <Link to={item.path} />
-                        <div className='btn-route'>{item.name}</div>
+                        <Link to={item.path} className='link'>
+                            <div className='btn-route'>{item.name}</div>
+                        </Link>
                     </div>
                 ))}
                 <div className='iconMenu'><AnglesRight /></div>
             </div>
             <div className='filter'>
-
+                <input className='search' type='text' placeholder='Search...' />
             </div>
 
         </div>

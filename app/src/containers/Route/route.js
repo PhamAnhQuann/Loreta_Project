@@ -1,23 +1,29 @@
 import React from 'react'
-import paramera from '../PorscheParamera/paramera'
-import porschecayenne from '../PorscheCayenne/porschecayenne'
-import porsche911 from '../Porsche911/porsche911'
+import paramera from '../PorscheParamera/paramera.js'
+import porschecayenne from '../PorscheCayenne/porschecayenne.js'
+import porsche911 from '../Porsche911/porsche911.js'
+import Island from '../Island/Island.js'
+import detailsProduct from '../Details/detailsProduct.js'
 
 export default [
     {
-        exact: true,
         path: "/",
         component: paramera
     },
     {
-        exact: true,
         path: "/porschecayenne",
         component: porschecayenne
     },
     {
-        exact: true,
         path: "/porsche911",
         component: porsche911
+    },
+    {
+        path: "/island",
+        component: Island
+    },
+    {
+        path: "/details",
+        component: detailsProduct
     }
-
 ]

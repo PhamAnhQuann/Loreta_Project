@@ -1,7 +1,7 @@
 .wrap-menu{
     display: grid;
     grid-template-columns: repeat(18,1fr);
-    height: 90px;
+    height: 60px;
     width: 100%;
     border: 1px solid #ccc;
 }
@@ -20,12 +20,17 @@
     display: flex;
     align-items: center;
 }
+.link{
+  text-decoration: none;
+  color:#333;
+}
 .btn-route{
     text-align: center;
 }
 .filter{
     display: flex;
     align-items: center;
+    justify-content: center;
     grid-column-start: 15;
     grid-column-end: 18;
     width: 100%;
@@ -71,4 +76,8 @@
   .slide {
     flex: 0 0 100%;
   }
-  
+  .search{
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%;
+  }

@@ -17,52 +17,64 @@ const MenuData = [
     },
     {
         id: 4,
-        name: 'Thuyền'
+        name: 'Đảo',
+        path: '/island'
     },
     {
         id: 5,
-        name: 'Chơi golf'
+        name: 'Chi tiết',
+        path: '/details'
     },
     {
         id: 6,
-        name: 'Nhà trên cây'
+        name: 'Nhà trên cây',
+        path: '/porschecayenne'
     },
 
     {
         id: 7,
-        name: 'Phòng'
+        name: 'Phòng',
+        path: '/porsche911'
     },
     {
         id: 8,
-        name: 'Cabin'
+        name: 'Cabin',
+        path: '/porschecayenne'
     },
     {
         id: 9,
-        name: 'Hướng biển'
+        name: 'Hướng biển',
+        path: '/porsche911'
     },
     {
         id: 10,
-        name: 'Nhiệt đới'
+        name: 'Nhiệt đới',
+        path: '/porschecayenne'
     },
     {
         id: 11,
-        name: 'Xe cắm trại'
+        name: 'Xe cắm trại',
+        path: '/porsche911'
     },
     {
         id: 12,
-        name: 'Đảo'
+        name: 'Đảo',
+        path: '/porschecayenne'
     },
     {
         id: 13,
-        name: 'Công viên quốc gia'
+        name: 'Công viên quốc gia',
+        path: '/porsche911'
     },
     {
         id: 14,
-        name: 'Hồ bơi tuyệt vời'
+        name: 'Hồ bơi tuyệt vời',
+        path: '/porschecayenne'
     },
     {
         id: 15,
-        name: 'Bắc cực'
+        name: 'Bắc cực',
+        path: '/porsche911'
     },
 ]
 export { MenuData };

@@ -10,11 +10,16 @@ const webpackDevCompiler = require('./webpack.dev.config.js');
 const path = require('path');
 const compiler = webpack(webpackDevCompiler);
 
-app.use(webpackHotMiddleware(compiler));
 app.use(webpackDevMiddleware(compiler, {
     publicPath: webpackDevCompiler.output.publicPath
 }));
-app.use(express.static(path.resolve(__dirname, 'app', 'images')))
+app.use(webpackHotMiddleware(compiler));
+
+// app.use(express.static(path.resolve(__dirname, 'app', 'images')))
+app.use(express.static(path.join(__dirname, 'build')));
+app.get('/*', function (req, res) {
+    res.sendFile(path.resolve(__dirname, 'build', 'index.html'));
+});
 app.listen(port, () => {
     console.log(`Localhost: ${chalk.green(`http://${localhost}:${port}`)}`);
     console.log(path.resolve(__dirname, 'app', 'images'))

@@ -1,6 +1,7 @@
 import React from 'react';
 import CardDesc from '../../components/CardDescription/index';
 import Porsche911_Img from '../../../images/ListImage/porsche_911.jpg';
+import './porsche911.css'
 function porsche911() {
     return (
         <div style={{ margin: '60px' }}>
