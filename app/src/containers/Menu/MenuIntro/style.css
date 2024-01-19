@@ -43,7 +43,6 @@
 .item-search-header{
     width: 25%;
     height: 100%;
-  
     position: relative;
 }
 
@@ -111,9 +110,53 @@
     width: 100%;
     height: 100%;
 }
+/*********************Option from menu filter*********************************************/
+
+
+.option-address{
+    margin-top:12px;
+    border-radius: 20px;
+    display: block;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    width: 400%;
+    right: -300%;
+    height: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.option-startDate{
+    margin-top:12px;
+    border-radius: 20px;
+    display: block;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    width: 400%;
+    right: -200%;
+    height: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.option-endDate{
+    margin-top:12px;
+    border-radius: 20px;
+    display: block;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    width: 400%;
+    right: -100%;
+    height: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
 
 .option-register{
-    margin-top:12px ;
+    margin-top:12px;
     padding: 20px;
     border-radius: 20px;
     display: block;

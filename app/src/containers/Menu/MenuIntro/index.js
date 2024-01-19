@@ -27,23 +27,27 @@ function index() {
                     <div className='search-header'>
                         <div className='item-search-header'>
                             <div className='item-address'>
-                                Địa điểm
+                                <div className='btn-address'>Địa điểm</div>
                             </div>
+                            <div className='option-address'></div>
                         </div>
                         <div className='item-search-header'>
-                            <div className='item-startDate'>Nhận phòng</div>
+                            <div className='item-startDate'>
+                                <div className='btn-startDate'>Nhận phòng</div>
+                            </div>
+                            {/* <div className='option-startDate'>nha phong</div> */}
                         </div>
                         <div className='item-search-header'>
                             <div className='item-endDate'>
                                 <div className='btn-endDate'>Trả phòng</div>
                             </div>
-                            <div className='option-endDate'></div>
+                            {/* <div className='option-endDate'></div> */}
                         </div>
                         <div className='item-search-header'>
                             <div className='item-register'>
                                 <div className='btn-register'>Khách</div>
                             </div>
-                            <div className='option-register'>v</div>
+                            {/* <div className='option-register'>v</div> */}
                         </div>
                     </div>
                 </div>
