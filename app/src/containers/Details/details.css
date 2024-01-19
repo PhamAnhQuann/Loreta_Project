@@ -22,51 +22,239 @@
     font-size: 15px;
 }
 
-.container-wrap-container-block{
-    display: flex;
-    width: 100%;
-    height: 600px;
-}
-
-.wrap-container-block{
-    width: 100%;
-    height: 100%;
-}
-
 .container-block{
+    width: 100%;
+    height: 508px;
     display: flex;
-    width: 100%;
-    height: 300px;
+    align-items: stretch;
 }
+
 .block1{
-    width: 100%;
+    width: 60%;
     height: 100%;
 }
 
 .img-block1{
     width: 100%;
-    height: 200%;
+    height: 100%;
     object-fit: cover;
 }
-
+.wrap-block2{
+    margin-left: 8px;
+    width: 20%;
+    height: 100%;
+}
 .block2{
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: stretch;
 }
-
-.block3{
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-}
-
 .img-block2{
+    width: 100%;
+    height: 49%;
     object-fit: cover;
+}
+.block3{
+    margin-left: 8px;
+    width: 20%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.img-block3{
+    width: 100%;
+    height: 49%;
+    object-fit: cover;
+}
+.basic-info{
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.info-room{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-.img-block3{
-    object-fit: cover;
+.name-room{
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.short-desc{
+    font-size: 15px;
+    color: #353535;
+}
+
+.achievement-room{
+    margin-top:20px ;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 80px;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:wrap ;
+}
+
+.medal-achieve{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.evaluate-detail{
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+.evaluate-star{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.numberofreview{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.bill{
+    width: 30%;
+    height: 500px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 1px solid #d0d0d0;
+    border-radius: 10px;
+    padding: 15px;
+}
+.date-room{
+    margin-top: 20px;
+    width: 100%;
+    height: 150px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.staendDate{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    border-bottom:1px solid #ccc ;
+
+}
+.startDate{
+    width: 50%;
     height: 100%;
+    border-right:1px solid #ccc ;
+    cursor: pointer;
+}
+.endDate{
+    width: 50%;
+    height: 50%;
+    cursor: pointer;
+
+}
+.number-register{
+    width: 100%;
+    padding: 10px;
+}
+.label-date{
+    margin-left: 8px;
+    margin-top: 10px;
+}
+.date{
+    margin-top: 15px;
+    font-size: 18px;
+    margin-left: 8px;
+}
+
+.register{
+    margin-top: 10px;
+}
+.wrap-btn{
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-order{
+    /* margin-top: 10px; */
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+    color: white;
+    transition: width 0.1s , height 0.1s, margin 0.1s, margin-top 0.1s;
+    transition-timing-function: ease;
+}
+.btn-order:hover{
+    background-color: rgb(128, 166, 236);
+
+}
+.btn-order:active{
+    width: 99%;
+    height: 39px;
+
+}
+.expense{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #ccc;
+}
+.wrap-expense-value{
+    display: flex;
+
+}
+.expense-child{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 60px;
+    font-size: 18px;
+}
+
+.expense-value{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    height: 60px;
+    font-size: 18px;
+}
+
+.wrap-bill{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+.label-total-bill{
+    width:50%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+}
+.value-bill{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
 }

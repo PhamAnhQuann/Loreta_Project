@@ -7,11 +7,11 @@ import { Link } from 'react-router-dom';
 function index() {
 
     return (
-        <div className='wrap-menu'>
+        <div className='wrap-menu-item'>
             <div className='route-page'>
                 <div className='iconMenu'><AnglesLeft /></div>
-                {MenuData.map((item) => (
-                    <div>
+                {MenuData.map((item, index) => (
+                    <div key={index}>
                         <Link to={item.path} className='link'>
                             <div className='btn-route'>{item.name}</div>
                         </Link>

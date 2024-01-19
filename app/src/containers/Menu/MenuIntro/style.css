@@ -2,13 +2,14 @@
     display: grid;
     grid-template-columns: repeat(18,1fr);
     width: 100%;
-    height: 60px;
+    height: 140px;
     background-color: #fff;
     border-bottom: 1px solid #ccc;
 }
 
 .content-header{
     display: flex;
+    flex-direction: column;
     grid-column-start: 2;
     grid-column-end: 17;
     align-items: center;
@@ -21,6 +22,97 @@
     grid-template-columns: repeat(12,1fr);
     width: 100%;
 }
+.wrap-search-header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-header{
+    width: 50%;
+    height: 60px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.item-search-header{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.item-address{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.item-address:hover{
+    width: 100%;
+    height: 100%;
+    background-color: #ccc;
+    border-radius: 40px;
+}
+
+.item-startDate{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.item-startDate:hover{
+    width: 100%;
+    height: 100%;
+    background-color: #ccc;
+    border-radius: 40px;
+}
+
+.item-endDate{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.item-endDate:hover{
+    width: 100%;
+    height: 100%;
+    background-color: #ccc;
+    border-radius: 40px;
+}
+
+.item-register{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    position: relative;
+}
+
+.item-register:hover{
+    width: 100%;
+    height: 100%;
+    background-color: #ccc;
+    border-radius: 40px;
+}
+
+.option-register{
+    
+    position: absolute;
+    z-index: 1;
+}
+
 .logo{
     grid-column-start: 1;
     grid-column-end: 2;
