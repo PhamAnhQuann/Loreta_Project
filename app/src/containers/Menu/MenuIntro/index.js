@@ -34,13 +34,16 @@ function index() {
                             <div className='item-startDate'>Nhận phòng</div>
                         </div>
                         <div className='item-search-header'>
-                            <div className='item-endDate'>Trả phòng</div>
+                            <div className='item-endDate'>
+                                <div className='btn-endDate'>Trả phòng</div>
+                            </div>
+                            <div className='option-endDate'></div>
                         </div>
                         <div className='item-search-header'>
                             <div className='item-register'>
                                 <div className='btn-register'>Khách</div>
-                                {/* <div className='option-register'>v</div> */}
                             </div>
+                            <div className='option-register'>v</div>
                         </div>
                     </div>
                 </div>
