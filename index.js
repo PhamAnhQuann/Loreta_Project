@@ -11,7 +11,8 @@ const path = require('path');
 const compiler = webpack(webpackDevCompiler);
 
 app.use(webpackDevMiddleware(compiler, {
-    publicPath: webpackDevCompiler.output.publicPath
+    publicPath: webpackDevCompiler.output.publicPath,
+    writeToDisk: false
 }));
 app.use(webpackHotMiddleware(compiler));
 

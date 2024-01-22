@@ -258,3 +258,36 @@
     display: flex;
     justify-content: flex-end;
 }
+
+.roomowner{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+.avatar-roomowner{
+    width: 10%;
+}
+
+.img-roomowner{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.name-roomowner{
+    width: 80%;
+}
+
+.endow{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.item-endow{
+    width: 100%;
+    height: 40px;
+}

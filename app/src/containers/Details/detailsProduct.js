@@ -63,10 +63,18 @@ function detailsProduct() {
                             <div className='evaluate-star'>4.95 </div>
                             <div className='numberofreview'>168 <br></br> đánh giá</div>
                         </div>
-                        <div className='roomowner'> Philipe</div>
-                        <div className='endow'>Hủy miễn phí trong 48 giờ</div>
+                        <div className='roomowner'>
+                            <div className='avatar-roomowner'>
+                                <img className='img-roomowner' src={cayenne} />
+                            </div>
+                            <div className='name-roomowner'>Philipe</div>
+                        </div>
+                        <div className='endow'>
+                            <div className='item-endow'>Trải nghiệm nhận phòng tuyệt vời </div>
+                            <div className='item-endow'>Lặn </div>
+                            <div className='item-endow'>Hủy miễn phí trong 48 giờ</div>
+                        </div>
                         <div className='condition'>Phòng có thể chứa tối đa 24 người trở lên <button>Hiển thị thêm</button></div>
-                        <div className='sleepingspace'>Phòng ngủ 1. 1 giường queen, 1 nệm trải sàn </div>
                     </div>
                     <div className='bill'>
                         <div>$893/đêm</div>
