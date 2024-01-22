@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './details.css';
 import cayenne from '../../../images/ListImage/cayenne.jpg'
 import Popup from '../../components/Popup/Popup';
+import { ArrowLeft } from '../../../images/IconLogo/Logo';
 
 function detailsProduct() {
     const [isOpenInfo, setIsOpenInfo] = useState(false);
@@ -9,8 +10,10 @@ function detailsProduct() {
         setIsPopupOpen(false);
     };
     return (
-        <div className='containers-layout' style={{ marginTop: '15px' }}>
-            <div className='btn-back'>Back</div>
+        <div className='containers-layout' >
+            <div className='btn-back'>
+                <div className='style-btn'><ArrowLeft /></div>
+            </div>
             <div className='content-details'>
                 <div className='name-product'>
                     <div className='name'>Đảo hoa</div>

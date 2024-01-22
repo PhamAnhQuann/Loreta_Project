@@ -5,7 +5,24 @@
 .btn-back{
     grid-column-start: 2;
     grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
 }
+
+.style-btn:hover{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 .content-details{
     grid-column-start: 3;
     grid-column-end: 17;
@@ -15,13 +32,24 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    height: 80px;
 }
 
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .shareandsave{
     display: flex;
     font-size: 15px;
+    justify-content: center;
+    align-items: center;
 }
 
+.shareandsave > div {
+    margin-left:10px ;
+}
 .container-block{
     width: 100%;
     height: 508px;
